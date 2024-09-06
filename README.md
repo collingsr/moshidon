@@ -1,7 +1,7 @@
 # ![MoshidonLogo](mastodon/src/main/res/mipmap-xhdpi/ic_launcher_round.png) Moshidon, the material you mastodon client!
 
 
-> A fast, highly customizable, up-to-date fork of [megalodon](https://github.com/sk22/megalodon) adding important features such as a fully federated timeline, unlisted posting, drafts, scheduled posts, bookmarks, and alt text warnings. 
+> A fast, highly customizable, up-to-date fork of [megalodon](https://github.com/sk22/megalodon) adding important features such as a federated timeline, unlisted posting, drafts, scheduled posts, and alt text warnings. 
 
 
 ## Download Now
@@ -50,40 +50,32 @@ Moshidon is designed according to Material Design principles. Follow your device
 
 ### Not Just For Mastodon
 
-Supports features available on other types of fediverse servers such as admin announcements, showing pronouns in user names, post translation, emoji reactions, local-only posting, and markdown or html in posts.
+Supports features available on other types of fediverse servers such as emoji reactions, local-only posting, and markdown or html in posts.
 
 ### Fully Federated Feed & Profiles
 
 See all public posts from servers your server federates with and fetch profiles from a user's local server for accurate up to date information.
 
 ## And more...
-- quote-posts - links to fediverse posts in other posts will be loaded inline like quote-tweets
-- manage pinned posts and bookmarks
-- manage lists, filters, and most privacy settings
-- display pronouns in timelines, threads, and user listings
-- get only specific types of notifications (no more finished polls!), limit who you get notifications from, or group all notifications into one. 
-- automatically add "re:" to beginning of replies with content warnings
-- ask before boosting or deleting posts
-- when replying to a boosted post automatically mention the person who boosted it
-- overlay audio from posts, allowing your existing media to keep playing
-- auto-reveal CWs that are the same as ones you've already opened, or always reveal content warnings and sensitive media
-- hide media previews in timelines (save data)
-- show post interaction counts in timeline
-- allow custom emoji in display names
-- enable scrolling text for long display names
-- hide interaction buttons
-- show post dividers
+- Quote-posts - links to fediverse posts in other posts will be loaded inline like quote-tweets
+- Display pronouns next to names in timelines, threads, and user listings
+- Get only specific types of notifications (no more finished polls!), limit who you get notifications from, or group all notifications into one. 
+- Automatically add "re:" to beginning of replies with content warnings
+- When replying to a boosted post automatically mention the person who boosted it
+- Overlay audio from posts, allowing your existing media to keep playing
+- Auto-reveal CWs that are the same as ones you've already opened, or always reveal all content warnings and sensitive media
+- Hide media previews in timelines (save data)
+- Enable scrolling text for long display names
+- Hide interaction buttons
+- Show post dividers
 
+## Releases
 
-## Installation & Releases
+Moshidon is available on GitHub, Google Play, F-Droid, and the IzzyOnDroid repo. All sources provide the same stable release. Older releases are available on the [Releases](https://github.com/LucasGGamerM/moshidon/releases) page. 
 
-Moshidon is available on GitHub, Google Play, F-Droid, and the IzzyOnDroid repo. All sources provide the same ` moshidon.apk ` stable release. Older releases are available on the [Releases](https://github.com/LucasGGamerM/moshidon/releases) page. 
+### Nightly Build
 
-### How to Install from GitHub
-[Download the latest stable release from Github](https://github.com/LucasGGamerM/moshidon/releases/latest/download/moshidon.apk) and open it. You might have to accept installing APK files from your browser. Moshidon will automatically check for new updates available on GitHub and offer to download and install them within the app. You can also manually press “Check for updates” at the bottom of the settings page.
-
-### Nightly Version
-All ` moshidon-night.apk ` nightly builds can be downloaded on the [Nightly Releases](https://github.com/LucasGGamerM/moshidon-nightly/releases) page. This is an unstable version with an integrated updater for development and testing purposes. If you find any bugs with it, please file a bug report on our [Issues](https://github.com/LucasGGamerM/moshidon/issues) page.
+All nightly builds can be downloaded on the [Nightly Releases](https://github.com/LucasGGamerM/moshidon-nightly/releases) page. This is an unstable version with an integrated updater for development and testing purposes. If you find any bugs with it, please file a bug report on our [Issues](https://github.com/LucasGGamerM/moshidon/issues) page.
 
 ## Building & Contributing
 
@@ -99,7 +91,7 @@ This project is released under the [GPL-3 License](./LICENSE).
 
 ## Contact & Support
 
-**<a rel="me" href="https://floss.social/@moshidon">@moshidon@floss.social</a>**
+**<a href="https://floss.social/@moshidon">moshidon@floss.social</a>**
 
 [Official Matrix Chatroom](https://matrix.to/#/#moshidon:floss.social) 
 

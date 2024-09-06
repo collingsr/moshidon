@@ -8,6 +8,10 @@ Q: Will there ever be a version of Moshidon for iOS?
 
 A: No. As android and iOS apps do not share code, it is incredibly hard to port.
 
+Q. How do I install the github version?
+
+A. [Download the latest stable or nightly release from Github](https://github.com/LucasGGamerM/moshidon/releases/) as an .apk file and open it. You might have to accept installing APK files from your browser. Moshidon will automatically check for new updates available on GitHub and offer to download and install them within the app. You can also manually press “Check for updates” at the bottom of the settings page.
+
 ## Detailed changes
 
 ### Features
